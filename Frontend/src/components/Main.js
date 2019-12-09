@@ -7,7 +7,7 @@ import OwnersignUp from './Ownersignup';
 import NavBar from './NavBar';
 import Buyerprofile from './Buyerprofile';
 // import Search from './Search';
-// import Ownerprofile from './Ownerprofile';
+import Ownerprofile from './Ownerprofile';
 // import OwnerDetails from './OwnerDetails/OwnerDetails';
 // import Menu from './Menu/Menu';
 // import Orders from './Orders/Orders';
@@ -36,9 +36,10 @@ class Main extends Component {
                 <Route path="/ownerlogin" component={Ownerlogin}/>
                 <Route path="/ownersignup" component={OwnersignUp}/>
                 <Route path="/userprofile" component={Buyerprofile}/>
+                <Route path="/ownerprofile" component={Ownerprofile}/>
                  {/* <Route path="/search" component={Search}/>  */}
                 {/* 
-                <Route path="/ownerprofile" component={Ownerprofile}/>
+                
                 <Route path="/signup" component={Buyersignup}/> 
                 <Route path="/ownerlogin" component={Ownerlogin}/>
                 <Route path="/ownersignup" component={OwnersignUp}/>
